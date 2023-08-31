@@ -1,3 +1,6 @@
+# Functions should be lowercase with words separated by underscores as necessary to improve readbility
+## Variable names follow the same convention as fucntion names
+
 def main():
     book = 'Dracula'
     author = 'Bram Stoker'
