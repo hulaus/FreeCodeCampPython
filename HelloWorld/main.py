@@ -1,15 +1,15 @@
-# Functions should be lowercase with words separated by underscores as necessary to improve readbility
-## Variable names follow the same convention as fucntion names
+# There are Six different arithmetic operations that you can perform on any 
+#of the simple numeric types. The simplest of the bunch are addition and subtraction
 
 def main():
-    book, author, release_year, goodreads_rating = 'Dracula', 'Bram Stoker', '1897', '4.01'
+    num_1 = 15
+    num_2 = 12
 
-    print(f' {book} is a novel by  {author}, published in {release_year}.'
-          f' It has a rating of {goodreads_rating} on goodreads.')
+    print(f'sum of num_1 and num_2 is: {num_1 + num_2}')
+    print(f'difference of num_1 and num_2 is: {num_1 - num_2}')
 
 if __name__ == '__main__':
-    main()
-# Dracula
-# Bram Stoker
-# 1897
-# 4.01
+        main()
+
+#sum of num_1 and num_2 is  27
+#difference of num_1 and num_2 is 3
