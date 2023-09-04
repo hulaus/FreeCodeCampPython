@@ -2,13 +2,10 @@
 #of the simple numeric types. The simplest of the bunch are addition and subtraction
 
 def main():
-    num_1 = 15
-    num_2 = 12
+    num_1 = -5.8
 
-    print(f'floored quotient of num_1 and num_2 is: {num_1 // num_2}')
+    print(f'the absolute value of {num_1} is: {abs(num_1)}')
 
 if __name__ == '__main__':
     main()
 
-#floored quotient of num_1 and num_2 is: 1
-#The result will be rounded off to the nearest integer low.
