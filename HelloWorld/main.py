@@ -5,10 +5,10 @@ def main():
     num_1 = 15
     num_2 = 12
 
-    print(f'difference of num_1 and num_2 is: {num_2 - num_1}')
+    print(f'floored quotient of num_1 and num_2 is: {num_1 // num_2}')
 
 if __name__ == '__main__':
-        main()
+    main()
 
-#sum of num_1 and num_2 is  27
-#difference of num_1 and num_2 is 3
+#floored quotient of num_1 and num_2 is: 1
+#The result will be rounded off to the nearest integer low.
